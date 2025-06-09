@@ -1,0 +1,15 @@
+[project]
+name = "sun-sys"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.10.3",
+    "numpy>=2.3.0",
+    "pyqt5>=5.15.11",
+    "scipy>=1.15.3",
+]
+
+
+[tool.uv]
+constraint-dependencies = ["pyqt5-qt5 <=5.15.2"]
